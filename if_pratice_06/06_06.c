@@ -10,7 +10,7 @@ int main()
 
     if(lengths_a == lengths_b || lengths_a == lengths_c || lengths_b == lengths_c) //注意寫法(lengths_a == lengths_b == lengths_c) 是a == b 得出1 再拿1 == c 所以思路有錯誤
     {   
-        printf("Regular triangle");
+        printf("Isosceles triangle");
     }
     return 0;
 }
