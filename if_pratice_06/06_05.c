@@ -3,12 +3,12 @@
 
 int main()
 {
-    int lengths_a = 0, lengths_b = 0, lengths_c = 0;
+    int side1 = 0, side2 = 0, side3 = 0;
     printf("Please enter three of lengths :");
-    scanf("%d%d%d", &lengths_a, &lengths_b, &lengths_c);
+    scanf("%d%d%d", &side1, &side2, &side3);
 
 
-    if(lengths_a == lengths_b && lengths_b == lengths_c) //注意寫法(lengths_a == lengths_b == lengths_c) 是a == b 得出1 再拿1 == c 所以思路有錯誤
+    if(side1 == side2 && side2 == side3) //注意寫法(lengths_a == lengths_b == lengths_c) 是a == b 得出1 再拿1 == c 所以思路有錯誤
     {   
         printf("Regular triangle");
     }
