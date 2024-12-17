@@ -17,7 +17,7 @@ int main()
     square_side23 = square_side2 + square_side3;
     square_side13 = square_side1 + square_side3;
 
-    if (square_side12 >= square_side3 || square_side23 >= square_side1 || square_side13 >= square_side3) 
+    if (square_side12 == square_side3 || square_side23 == square_side1 || square_side13 == square_side3) 
     {
         printf("Right triangle");
     }
