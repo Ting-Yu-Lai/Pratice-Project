@@ -7,7 +7,7 @@ int main()
     int a = 0, b = 0, c = 0, d = 0;
     int max;
     printf("Please enter four of numbers :");
-    scanf("%d%d%d%d", &a, &b, &c, d)
+    scanf("%d%d%d%d", &a, &b, &c, &d);
 
     max = a;
     if (b >= max)
@@ -23,6 +23,6 @@ int main()
         max = d;
     }
     printf("The maxinum is :%d. \n", max);
-    return = 0;
+    return 0;
 }
 //Suppose a is maxinum integer then compare b with a, if b is maxinum integer then compare c with b, if c is maxinum integer then compare d with c.
