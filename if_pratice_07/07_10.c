@@ -11,18 +11,18 @@ int main()
     printf("Before :");
     scanf("%d%d%d", &a, &b, &c);
 
-    if(c < a){
+    if(b < a){
         reg = a;
         a = c;
         c = reg;
     }
-    if(b < a){
+    if(c < a){
         reg = a;
         a = b;
         b = reg;
     }
     if(c < b){
-        reg = b;
+        reg = b; 
         b = c;
         c = reg;
     }
