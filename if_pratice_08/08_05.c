@@ -8,7 +8,7 @@ int main(){
     scanf("%d%d%d", &num1, &num2, &num3);
     if (num1 >=num2){
         max = num1;
-    } else if(max > num2) {
+    } else if(num2 > max) {
         max = num2;
     } else {
         max = num3;
