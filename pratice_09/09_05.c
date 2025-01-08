@@ -13,10 +13,9 @@ int main() {
         printf("Enter of numbers(quit with 0) : ");
         scanf("%d", &num1);
     }
-    if (num1 == 0){
-        count = count - 1;
-        average = sum / count;
-    }
+
+    count = count - 1;
+    average = sum / count;
     printf("The average is : %.2f", average);
     return 0;
 }
