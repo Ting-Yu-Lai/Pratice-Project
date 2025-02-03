@@ -20,11 +20,12 @@
     "prefix": "newc", 
     "body": [
         	"#include <stdio.h>",
+			"#include <math.h>", // 新增這一行
         	"",
         	"int main() {",
         	"    $0",
         	"}",
-			"ruturn 0;"
+			 "return 0;" // 修正拼寫錯誤
     	],
     	"description": "Convert .txt to .c file with basic C structure"
 	}
